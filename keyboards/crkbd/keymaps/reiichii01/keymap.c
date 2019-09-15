@@ -63,9 +63,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------.                 ,-----------------------------------------.
         ESC,     Q,     W,     E,     R,     T,                       Y,     U,     I,     O,     P,  BSPC,\
   //|------+------+------+------+------+------|                 |------+------+------+------+------+------|
-      CTLTB,     A,     S,     D,     F,     G,                       H,     J,     K,     L,  SCLN,  QUOT,\
+        TAB,     A,     S,     D,     F,     G,                       H,     J,     K,     L,  SCLN,  QUOT,\
   //|------+------+------+------+------+------|                 |------+------+------+------+------+------|
-       LSFT,     Z,     X,     C,     V,     B,                       N,     M,  COMM,   DOT,  SLSH,  RSFT,\
+       LCTL,     Z,     X,     C,     V,     B,                       N,     M,  COMM,   DOT,  SLSH,  RSFT,\
   //|------+------+------+------+------+------+-------|  |------+------+------+------+------+------+------|
                                   GUIEI, LOWER,  SPC,       ENT, RAISE, ALTKN \
                               //`---------------------'  `--------------------'
@@ -75,9 +75,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------.                ,-----------------------------------------.
         ESC,  EXLM,    AT,  HASH,   DLR,  PERC,                   CIRC,  AMPR,  ASTR,  LPRN,  RPRN,  BSPC,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LCTL, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   MINS,   EQL,  UNDS,  PLUS,  PIPE,   GRV,\
+        TAB, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   MINS,   EQL,  UNDS,  PLUS,  PIPE,   GRV,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-        TAB, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   LCBR,  RCBR,  LBRC,  RBRC,  BSLS,  TILD,\
+       LCTL, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   LCBR,  RCBR,  LBRC,  RBRC,  BSLS,  TILD,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                   GUIEI, LOWER,  SPC,      ENT, RAISE, ALTKN \
                               //`--------------------'  `--------------------'
